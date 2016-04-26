@@ -1,0 +1,52 @@
+.header{
+  margin:10px 0 10px 0;
+  vertical-align:middle;
+}
+
+.head-box {
+  height:40px;
+  border:1px solid black;
+  font-weight:700;
+  padding:2px;
+}
+
+.head-box .winners{
+  display:block;
+  float:left;
+  margin-top:8px;
+  margin-left:15px;
+}
+
+.header .btn{
+  float:right;
+}
+
+.data-forms{
+  margin-bottom:10px;
+}
+
+.forms{
+  border:1px solid black;
+  padding:10px;
+}
+
+.btn{
+  border: 1px solid black;
+  border-radius:0;
+}
+
+.data-forms .save{
+  margin-top:10px;
+  float:right;
+  width:100px;
+}
+.save .btn{
+  width:100%;
+
+}
+
+tr td{
+  border:1px solid black !important;
+  padding:-15px !important;
+
+}

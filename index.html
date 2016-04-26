@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lottery</title>
+
+
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+        <div class="head-box">
+          <span class="winners">Winners:  <span class="winner-res"></span></span>
+          <button class="btn btn-default" id="winner-button" type="submit">New Winner</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="data-forms">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+        <div class="forms">
+          <p class="text-center">Registration form</p>
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="name" class="col-sm-2 control-label">Name:</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="surename" class="col-sm-2 control-label">Surename: </label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="surename" placeholder="Surename">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email: </label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="nick@mail.com">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="phone" class="col-sm-2 control-label">Phone: </label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="phone" placeholder="+38(044)555-55-55">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="form-group save">
+          <!-- <div class="col-sm-offset-2 col-sm-10"> -->
+            <button type="submit" class="btn btn-default" id="save-button">Save</button>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="data-table">
+    <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+      <table class="table table-bordered" id="table">
+        <tr>
+          <td>Name</td>
+          <td>Surename</td>
+          <td>Email</td>
+          <td>Phone</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+  <script src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
